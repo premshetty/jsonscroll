@@ -1,0 +1,101 @@
+.card{
+    background-color: lightgrey;
+  width: 200px;
+ 
+
+}
+.h2{
+    background-color:rgb(131, 124, 122);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.parentdiv{
+    display: flex;
+    overflow: scroll;
+   
+    
+    scroll-behavior: smooth;
+    flex-direction: row;
+    background-color: rgb(131, 124, 122);
+    width: 100%;
+   
+
+}
+.parentdiv::-webkit-scrollbar {
+    display: none;
+}
+.parentdiv :hover {
+    transform: scale(1.15); 
+    transition-duration: 2s;
+}
+@media (max-width: 800px) {
+    .parentdiv {
+      flex-direction: column;
+    }
+  }
+
+  .glowonhover {
+    padding: 50px;
+    margin: 20px;
+    
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(228, 221, 221);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glowonhover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glowonhover:active {
+    color: #000
+}
+
+.glowonhover:active:after {
+    background: transparent;
+    
+}
+
+.glowonhover:hover:before {
+    opacity: 1;
+   
+}
+
+.glowonhover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

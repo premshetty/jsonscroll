@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JsonPlaceHolderApi/static/css/main.16fd1a3a.chunk.css",
+    "main.js": "/JsonPlaceHolderApi/static/js/main.e7989e86.chunk.js",
+    "main.js.map": "/JsonPlaceHolderApi/static/js/main.e7989e86.chunk.js.map",
+    "runtime-main.js": "/JsonPlaceHolderApi/static/js/runtime-main.4d712c77.js",
+    "runtime-main.js.map": "/JsonPlaceHolderApi/static/js/runtime-main.4d712c77.js.map",
+    "static/js/2.d19728d7.chunk.js": "/JsonPlaceHolderApi/static/js/2.d19728d7.chunk.js",
+    "static/js/2.d19728d7.chunk.js.map": "/JsonPlaceHolderApi/static/js/2.d19728d7.chunk.js.map",
+    "static/js/3.adb94897.chunk.js": "/JsonPlaceHolderApi/static/js/3.adb94897.chunk.js",
+    "static/js/3.adb94897.chunk.js.map": "/JsonPlaceHolderApi/static/js/3.adb94897.chunk.js.map",
+    "index.html": "/JsonPlaceHolderApi/index.html",
+    "static/css/main.16fd1a3a.chunk.css.map": "/JsonPlaceHolderApi/static/css/main.16fd1a3a.chunk.css.map",
+    "static/js/2.d19728d7.chunk.js.LICENSE.txt": "/JsonPlaceHolderApi/static/js/2.d19728d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d712c77.js",
+    "static/js/2.d19728d7.chunk.js",
+    "static/css/main.16fd1a3a.chunk.css",
+    "static/js/main.e7989e86.chunk.js"
+  ]
+}
